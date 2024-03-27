@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tailwind.css">
+    <title>Document</title>
+</head>
+<body class="font-poppins">
+    <section class="h-screen relative overflow-hidden">
+        <div class="absolute w-[700px] h-[700px] rounded-full opacity-[0.03] bg-white z-30 top-[18%] left-[5%]"></div>
+        <div class="absolute w-[700px] h-[700px] rounded-full opacity-[0.03] bg-white z-30 top-[-40%] left-[47%]"></div>
+        <div class="absolute w-[2200px] h-[1850px] bg-[#138AFD] rounded-full left-[50%] translate-x-[-50%] mx-auto top-[-115%] z-20"></div>
+        <div class="absolute w-[2200px] h-[1850px] bg-[#10AFEB] rounded-full left-[50%] translate-x-[-50%] mx-auto top-[-107%] z-10"></div>
+        <div class="absolute w-[2200px] h-[1850px] bg-[#1FF9EE] rounded-full left-[50%] translate-x-[-50%] mx-auto z-0 top-[-100%]"></div>
+        <div class="w-[130px] h-[130px] bg-gradient-to-l from-[#0A95EA] to-[#1FF9EE] absolute z-40 rounded-3xl top-[25%] left-[15%] animate-right"></div>
+        <div class="w-[200px] h-[200px] bg-gradient-to-l from-[#0A95EA] to-[#1FF9EE] absolute z-40 rounded-3xl top-[30%] left-[75%] animate-left"></div>
+        <div class="w-[90px] h-[90px] bg-gradient-to-l from-[#0A95EA] to-[#1FF9EE] absolute z-40 rounded-3xl top-[10%] left-[30%] animate-up-down"></div>
+         <div class="w-full relative md:static bg-zinc-900 md:bg-transparent shadow-md md:shadow-none h-14 z-50">
+            <input type="checkbox" id="checkbox" class="peer absolute" hidden>
+            <div class="px-3 md:px-0 flex items-center md:w-full md:justify-center h-full md:text-center md:bg-black md:text-white">
+                <header class="text-2xl font-bold text-white md:text-center">Education</header>
+            </div>
+             <div class="absolute md:relative md:mx-auto w-full md:w-[610px] max-h-0 md:max-h-12 overflow-hidden md:overflow-visible md:mt-11 peer-checked:max-h-[420px] transition-all duration-300 md:z-50">
+              <div class="py-3 md:p-2 flex flex-col md:flex-row gap-5  md:gap-2 w-full bg-zinc-900 md:bg-white md:shadow-[0px_0px_20px_rgba(0,0,0,0.10)] md:w-full md:h-16 text-white md:text-black md:rounded-md">
+                 <a href="#" class="nav-frist">Home</a>
+                 <a href="#" class="nav-links">About</a>
+                 <a href="#" class="nav-links">Dictionary</a>
+                 <a href="#" class="nav-links">Beta</a>
+                 <a href="#" class="nav-links">Dictionary</a>
+                 <a href="#" class="nav-links">Beta</a>
+                 <a href="#" class="nav-links">Services</a>
+                 <!-- <a href="#" class="nav-links">Portfolio</a>
+                 <a href="#" class="nav-links">Book</a>
+                 <a href="#" class="nav-links">Poster</a>
+                 <a href="#" class="nav-links">Video</a> -->
+                 <!-- <ion-icon name="chevron-forward-outline" class="absolute w-[20px] h-[20px] bg-zinc-300 rounded-full -right-3 top-[50%] translate-y-[-50%] hidden md:block" id="right_arrow"></ion-icon> -->
+             </div>
+             </div>
+             <label for="checkbox" class="absolute md:static right-3 text-[30px] text-white top-[55%] translate-y-[-45%] md:hidden">
+                <ion-icon name="menu-outline" class="md:hidden"></ion-icon>
+                <!-- <button class="text-black hidden md:block">Open</button> -->
+             </label>
+         </div>
+         <main class="flex relative flex-wrap justify-center gap-3 p-3 mt-20 md:mt-40 z-40 text-white">
+            <div class="flex flex-col  items-center text-center gap-3">
+                <h1 class="text-5xl font-bold">Hi there !</h1>
+                <p class="font-light">We all are best proggramer in bangladesh.and itr is one of the most experience in our life</p>
+                <button class="text-black px-11 py-3 bg-white rounded-sm font-light tracking-widest">Explore</button>
+            </div>
+            <!-- <div>
+                <img src="./images/preview.jpg" alt="">
+            </div> -->
+         </main>
+         <div class="bg-white w-[350px] md:w-[400px] h-[300px] relative  mx-auto mt-52 z-50 rounded-3xl shadow-xl p-4 animate-up-down">
+            <img src="images/20240326_150607.jpg" alt="myImages" class="object-cover w-full h-full overflow-hidden">
+        </div>
+    </section>
+   
+    <section class="h-auto p-20">
+      <div class="flex flex-wrap md:grid md:gap-x-8 md:grid-cols-[repeat(3,1fr)] md:w-[694px] mx-auto md:grid-rows-[repeat(6,70px)] md:justify-normal items-center justify-center gap-6">
+        <div class="md:row-start-1 md:row-end-3  after:bg-[#4070f4]  services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-python" class="absolute text-[#4070f4] text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-3 md:row-end-5  after:bg-sky-400 services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col group-hover:text-white">
+                <h1 class="font-semibold text-[18px] text-zinc-700 group-hover:text-white">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-designernews" class="absolute text-sky-400 text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-5 md:row-end-7  after:bg-orange-400 services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-python" class="absolute text-orange-400 text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-2 md:row-end-4  after:bg-red-500 services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-python" class="absolute text-red-500  text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-4 md:row-end-6  after:bg-red-500 services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-python" class="absolute text-red-500  text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-1 md:row-end-3  after:bg-[#4070f4] services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-python" class="absolute text-[#4070f4] text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-3 md:row-end-5  after:bg-sky-400 services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-designernews" class="absolute text-sky-400 text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+        <div class="md:row-start-5 md:row-end-7  after:bg-orange-400 services-box">
+            <div class="py-10 pl-6 gap-3 flex flex-col">
+                <h1 class="font-semibold text-[18px] text-zinc-700">Supervisor</h1>
+                <p class="font-light text-[12px]">Monitors activity to indentify projects roadblocks</p>
+            </div>
+            <ion-icon name="logo-python" class="absolute text-orange-400 text-[40px] right-6 bottom-3"></ion-icon>
+        </div>
+      </div>
+    </section> 
+
+
+    <section class="h-auto  md:p-32  bg-blue-50">
+        <div class="text-center">
+            <h1 class="text-[35px] font-semibold text-black">Our Services</h1>
+        </div>
+    <main class="flex items-center flex-wrap justify-center gap-20 mt-20">
+        <div class="course-box">
+            <div class="absolute w-[165px] h-[110px] sm:h-[165px] bg-gradient-to-r rounded-3xl from-[#6EE2F5] flex items-center justify-center  to-[#6454f0] -top-[40px] sm:top-[50%] sm:translate-y-[-50%] sm:left-7 left-[50%] translate-x-[-50%] shadow-[0px_10px_20px_rgba(100,84,240,0.30)]">
+                 <h1 class="text-white font-semibold text-[40px]">Book</h1>
+            </div>
+            <div class="cours-details">
+                <p class="text-[14px] font-medium">26 December 2019</p>
+                <h1 class="text-[20px] font-semibold">Lorem ipsum Dolor2</h1>
+                <p class="text-[14px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos blanditiis est sint provident.</p>
+                <button class="bg-gradient-to-r rounded-3xl from-[#6EE2F5] px-4 py-2 text-white font-medium to-[#6454f0] ">RAED MORE</button>
+            </div>
+         </div>
+         <div class="course-box">
+            <div class="cours-tittle">
+                 <h1 class="text-white font-semibold text-[40px]">Book</h1>
+            </div>
+            <div class="cours-details">
+                <p class="text-[14px] font-medium">26 December 2019</p>
+                <h1 class="text-[20px] font-semibold">Lorem ipsum Dolor2</h1>
+                <p class="text-[14px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos blanditiis est sint provident.</p>
+                <button class="bg-gradient-to-r rounded-3xl from-[#6EE2F5] px-4 py-2 text-white font-medium to-[#6454f0] ">RAED MORE</button>
+            </div>
+         </div>
+         <div class="course-box">
+            <div class="cours-tittle">
+                 <h1 class="text-white font-semibold text-[40px]">Book</h1>
+            </div>
+            <div class="cours-details">
+                <p class="text-[14px] font-medium">26 December 2019</p>
+                <h1 class="text-[20px] font-semibold">Lorem ipsum Dolor2</h1>
+                <p class="text-[14px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos blanditiis est sint provident.</p>
+                <button class="bg-gradient-to-r rounded-3xl from-[#6EE2F5] px-4 py-2 text-white font-medium to-[#6454f0] ">RAED MORE</button>
+            </div>
+         </div>
+         <div class="course-box">
+            <div class="cours-tittle">
+                 <h1 class="text-white font-semibold text-[40px]">Book</h1>
+            </div>
+            <div class="cours-details">
+                <p class="text-[14px] font-medium">26 December 2019</p>
+                <h1 class="text-[20px] font-semibold">Lorem ipsum Dolor2</h1>
+                <p class="text-[14px] font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ea quos blanditiis est sint provident.</p>
+                <button class="bg-gradient-to-r rounded-3xl from-[#6EE2F5] px-4 py-2 text-white font-medium to-[#6454f0] ">RAED MORE</button>
+            </div>
+         </div>
+    </main>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

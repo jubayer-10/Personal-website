@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-frist {
+  @apply h-12 md:h-full leading-[48px] text-[15px] font-medium md:bg-[#4070f4] rounded-lg md:rounded-md hover:text-black text-white hover:bg-slate-100 px-3 duration-150;
+}
+.nav-links {
+  @apply h-12 md:h-full leading-[48px] text-[15px] font-medium hover:bg-white md:hover:bg-[#4070f4] rounded-lg md:rounded-md hover:text-black md:hover:text-white md:text-black md:bg-zinc-100 px-3;
+}
+
+.course-box {
+  @apply w-[85%] sm:w-[520px] relative h-[300px] sm:h-[270px] bg-white shadow-[0px_0px_35px_rgba(0,0,0,0.04)] sm:flex sm:items-center rounded-lg hover:-translate-y-2 duration-500 ;
+}
+
+.services-box {
+   @apply w-[85%] sm:w-[210px] h-[200px] md:w-auto md:h-auto bg-white shadow-[0px_10px_30px_rgba(0,0,0,0.12)] relative after:absolute after:content-[''] after:w-full after:h-[2px] after:top-0 rounded-md overflow-hidden hover:scale-[1.03] duration-200 transition-all;
+}
+
+.cours-tittle {
+   @apply absolute w-[165px] h-[110px] sm:h-[165px] bg-gradient-to-r rounded-3xl from-[#6EE2F5] flex items-center justify-center  to-[#6454f0] -top-[40px] sm:top-[50%] sm:translate-y-[-50%] sm:left-7 left-[50%] translate-x-[-50%] shadow-[0px_10px_20px_rgba(100,84,240,0.30)];
+}
+
+.cours-details {
+  @apply flex flex-col items-start gap-2 mt-20 sm:mt-0 sm:ml-36 p-6 md:p-0;
+}
