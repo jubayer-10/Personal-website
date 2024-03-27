@@ -12,7 +12,7 @@
 }
 
 .course-box {
-  @apply w-[85%] sm:w-[520px] relative h-[320px] sm:h-[270px] bg-white shadow-[0px_0px_35px_rgba(0,0,0,0.04)] sm:flex sm:items-center rounded-lg hover:-translate-y-2 duration-500 ;
+  @apply w-[85%] sm:w-[520px] sm:pr-3 sm:ml-14 md:ml-0 relative h-[320px] sm:h-[270px] bg-white shadow-[0px_0px_35px_rgba(0,0,0,0.04)] sm:flex sm:items-center rounded-lg hover:-translate-y-2 duration-500 ;
 }
 
 .services-box {
